@@ -33,7 +33,7 @@ All configurations were implemented and tested in **Cisco Packet Tracer**, with 
 | **Security Controls** | Standard & Extended ACLs |
 | **Design Concepts** | VLANs, VLSM, Subnetting |
 | **Tools** | Cisco Packet Tracer, Wireshark |
-| **Troubleshooting** | `ping`, `traceroute`, `show ip route`, `show run` |
+| **Troubleshooting** | `ping`, `show ip route`, `show run` |
 
 ---
 
