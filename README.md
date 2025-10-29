@@ -47,5 +47,31 @@ All configurations were implemented and tested in **Cisco Packet Tracer**, with 
 
 ---
 
+## 📊 Project Outcome
+
+This project showcases practical understanding of **network design, configuration, and routing** principles.  
+It demonstrates how multiple routing protocols interact in a scalable, secure environment and reflects the hands-on skills used by network administrators.
+
+---
+
+## 🚀 Future Enhancements
+
+- Add redundancy using **HSRP or GLBP**  
+- Implement **firewall segmentation** for DMZ zones  
+- Introduce **Syslog/SNMP monitoring** for performance tracking  
+
+---
+
+## 👤 Author
+
+**Pawan Singh**  
+*Computer Science (Cyber Security) Graduate — Networking & Systems Enthusiast*  
+[GitHub – pawan-gh](https://github.com/pawan-gh) • [LinkedIn – pawan-cybersecurity](https://linkedin.com/in/pawan-cybersecurity)
+
+---
+
+> 💡 *This project was developed as part of continuous learning in enterprise network design and routing fundamentals using Cisco technologies.*
+
+
 ## 🗂️ Repository Structure
 
