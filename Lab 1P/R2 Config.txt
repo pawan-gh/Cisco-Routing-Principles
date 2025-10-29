@@ -1,0 +1,90 @@
+hostname Sedam_R2
+!
+!
+!
+!
+!
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description Database Server
+ ip address 158.61.4.193 255.255.255.192
+!
+interface GigabitEthernet0/0/0
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface GigabitEthernet0/0/1
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Serial0/1/0
+ description Internal link to Tandur_R1
+ ip address 158.61.5.34 255.255.255.252
+ clock rate 2000000
+!
+interface Serial0/1/1
+ description ISP link to ISP_R3
+ ip address 201.24.49.1 255.255.255.252
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router rip
+ version 2
+ network 158.61.0.0
+ default-information originate
+!
+ip classless
+ip route 0.0.0.0 0.0.0.0 201.24.49.2 
+!
+ip flow-export version 9
+!
+!
+!
+banner motd ^C
+103616691 ^C
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
