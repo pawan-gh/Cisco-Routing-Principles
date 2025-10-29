@@ -20,7 +20,7 @@ All configurations were implemented and tested in **Cisco Packet Tracer**, with 
 - **NAT / PAT:** Enabled internal hosts to access external networks securely  
 - **Access Control Lists (ACLs):** Controlled inbound and outbound traffic between VLANs  
 - **DHCP Configuration:** Automated host IP assignment  
-- **Connectivity Verification:** Used `ping`, `traceroute`, and `show` commands to test routing paths  
+- **Connectivity Verification:** Used `ping` and `show` commands to test routing paths  
 
 ---
 
