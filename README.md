@@ -71,7 +71,3 @@ It demonstrates how multiple routing protocols interact in a scalable, secure en
 ---
 
 > 💡 *This project was developed as part of continuous learning in enterprise network design and routing fundamentals using Cisco technologies.*
-
-
-## 🗂️ Repository Structure
-
