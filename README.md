@@ -1,4 +1,4 @@
-# 🌐 Network Routing Principles
+# 🌐 Cisco Routing Principles
 
 This project demonstrates the design and configuration of a **multi-router enterprise network**, focusing on **routing protocols, VLAN segmentation, NAT, and ACL-based security**.  
 It replicates a small-to-medium business environment where multiple departments connect securely through dynamic routing and controlled access policies.
